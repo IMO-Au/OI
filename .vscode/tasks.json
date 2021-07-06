@@ -10,7 +10,9 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/Executable_Files/${fileBasenameNoExtension}"
+                "${fileDirname}/Executable_Files/${fileBasenameNoExtension}",
+                "-Wall",
+                "-DLOCAL"
             ],
             "options": {
                 "cwd": "${fileDirname}"
